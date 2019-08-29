@@ -11,14 +11,14 @@ COPY ./ /conteco/git-repository/
 ##### END external/Dockerfile/conteco #####
 
 ##### BEGIN external/Dockerfile/labels-footer #####
-LABEL $CONTECO_LABELSPACE.schema-version="1.0" \
-      $CONTECO_LABELSPACE.realm="vcwebio" \
-      $CONTECO_LABELSPACE.ecosystem="conteco" \
-      $CONTECO_LABELSPACE.type="external" \
-      $CONTECO_LABELSPACE.name="bash" \
-      $CONTECO_LABELSPACE.tag="5.0.3" \
-      $CONTECO_LABELSPACE.build="external" \
-      $CONTECO_LABELSPACE.label="Exernal Bash image" \
-      $CONTECO_LABELSPACE.description="Import of external Bash image into the ContEco ecosystem." \
-      $CONTECO_LABELSPACE.repository="/conteco/git-repository" 
+LABEL io.vcweb.schema-version="1.0" \
+      io.vcweb.realm="vcwebio" \
+      io.vcweb.ecosystem="conteco" \
+      io.vcweb.type="external" \
+      io.vcweb.name="bash" \
+      io.vcweb.tag="5.0.3" \
+      io.vcweb.build="external" \
+      io.vcweb.label="Exernal Bash image" \
+      io.vcweb.description="Import of external Bash image into the ContEco ecosystem." \
+      io.vcweb.repository="/conteco/git-repository" 
 ##### END external/Dockerfile/labels-footer #####
