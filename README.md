@@ -1,6 +1,6 @@
 # conteco.external.bash
 
-Import of external Bash image into the ContEco ecosystem.
+Import of external official Bash image into the ContEco ecosystem.
 
 ## Import Version
 
