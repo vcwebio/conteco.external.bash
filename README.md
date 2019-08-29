@@ -4,13 +4,17 @@ Import of external Bash image into the ContEco ecosystem.
 
 ## Import Version
 
-The import is based on bash:5.0.3.
+### Current Version
 
-There is no import of previous versions.
+Current import is based on bash:5.0.9.
+
+### Previous Versions
+
+* bash:5.0.3
 
 ## Import Modifications
 
-### Current
+### Current Modifications
 
 The import build installs the following packages:
 
@@ -20,4 +24,5 @@ The import build installs the following packages:
 
 ## Tags
 
-* 5.0.3 (latest)
+* 5.0.9 (latest)
+* 5.0.3

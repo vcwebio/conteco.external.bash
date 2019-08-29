@@ -1,5 +1,5 @@
 ##### BEGIN external/Dockerfile/iamge-header #####
-FROM bash:5.0.3
+FROM bash:5.0.9
 ##### END external/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
@@ -16,7 +16,7 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="external" \
       io.vcweb.name="bash" \
-      io.vcweb.tag="5.0.3" \
+      io.vcweb.tag="5.0.9" \
       io.vcweb.build="external" \
       io.vcweb.label="Exernal Bash image" \
       io.vcweb.description="Import of external Bash image into the ContEco ecosystem." \
