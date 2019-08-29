@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="External Bash image"
+export CONTECO_DESCRIPTION="Import of external Bash image into the ContEco ecosystem."
+
+export CONTECO_TYPE="external"
+export CONTECO_NAME="bash"
+export CONTECO_TAG="5.0.3"
+
+export CONTECO_BUILD="external"

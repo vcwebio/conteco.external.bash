@@ -1,0 +1,24 @@
+##### BEGIN external/Dockerfile/iamge-header #####
+FROM bash:5.0.3
+##### END external/Dockerfile/image-header #####
+
+##### BEGIN image/Dockerfile/build-instructions #####
+RUN apk update && apk add coreutils && apk add gettext && apk add jq && rm -rf /var/cache/apk/*
+##### END image/Dockerfile/build-instructions #####
+
+##### BEGIN external/Dockerfile/conteco #####
+COPY ./ /conteco/git-repository/
+##### END external/Dockerfile/conteco #####
+
+##### BEGIN external/Dockerfile/labels-footer #####
+LABEL $CONTECO_LABELSPACE.schema-version="1.0" \
+      $CONTECO_LABELSPACE.realm="vcwebio" \
+      $CONTECO_LABELSPACE.ecosystem="conteco" \
+      $CONTECO_LABELSPACE.type="external" \
+      $CONTECO_LABELSPACE.name="bash" \
+      $CONTECO_LABELSPACE.tag="5.0.3" \
+      $CONTECO_LABELSPACE.build="external" \
+      $CONTECO_LABELSPACE.label="Exernal Bash image" \
+      $CONTECO_LABELSPACE.description="Import of external Bash image into the ContEco ecosystem." \
+      $CONTECO_LABELSPACE.repository="/conteco/git-repository" 
+##### END external/Dockerfile/labels-footer #####
