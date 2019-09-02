@@ -19,7 +19,7 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.tag="5.0.9" \
       io.vcweb.base="bash:5.0.9" \
       io.vcweb.build="external" \
-      io.vcweb.label="Exernal Bash image" \
+      io.vcweb.label="External Bash image" \
       io.vcweb.description="Import of external Bash image into the ContEco ecosystem." \
       io.vcweb.repository="/conteco/git-repository" 
 ##### END external/Dockerfile/labels-footer #####
