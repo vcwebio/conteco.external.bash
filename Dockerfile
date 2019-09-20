@@ -7,7 +7,7 @@ RUN apk update && apk add coreutils && apk add gettext && apk add jq && rm -rf /
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN external/Dockerfile/conteco #####
-COPY ./ /conteco/git-repository/
+COPY ./ /conteco/repo/
 ##### END external/Dockerfile/conteco #####
 
 ##### BEGIN external/Dockerfile/labels-footer #####
@@ -21,5 +21,5 @@ LABEL $CONTECO_LABELSPACE.schema-version="1.0" \
       $CONTECO_LABELSPACE.build="$CONTECO_BUILD" \
       $CONTECO_LABELSPACE.label="$CONTECO_LABEL" \
       $CONTECO_LABELSPACE.description="$CONTECO_DESCRIPTION" \
-      $CONTECO_LABELSPACE.repository="/conteco/git-repository" 
+      $CONTECO_LABELSPACE.repository="/conteco/repo" 
 ##### END external/Dockerfile/labels-footer #####
