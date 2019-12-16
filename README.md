@@ -1,15 +1,8 @@
-# conteco.external.bash
+# `conteco.external.bash` - ContEco
 
-Import of external official Bash image into the ContEco ecosystem.
+Official Bash image with ContEco external prerequisites installed.
 
-## Import Version
-
-Import is based on bash.
-The image tag reflects the verion.
-
-## Import Modifications
-
-The import build installs the following packages:
+## Installed External Prerequisites
 
 * coreutils - GNU core utilities
 * gettext - for availability of envsubst
@@ -17,5 +10,5 @@ The import build installs the following packages:
 
 ## Tags
 
-* 5.0.9 (latest)
+* 5.0.9 (current)
 * 5.0.3
