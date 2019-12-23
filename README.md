@@ -1,6 +1,7 @@
 # `conteco.external.bash` - ContEco
 
 Official Bash image with ContEco external prerequisites installed.
+See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Installed External Prerequisites
 
