@@ -5,7 +5,7 @@ export CONTECO_DESCRIPTION="Official Bash image with ContEco external prerequisi
 
 export CONTECO_TYPE="external"
 export CONTECO_NAME="bash"
-export CONTECO_TAG="5.0.9"
+export CONTECO_TAG="5.0.18"
 
 export CONTECO_BASE="${CONTECO_NAME}:${CONTECO_TAG}"
 export CONTECO_BUILD="external"

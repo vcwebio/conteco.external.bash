@@ -1,5 +1,5 @@
 ##### BEGIN external/Dockerfile/image-header #####
-FROM bash:5.0.9
+FROM bash:5.0.18
 ##### END external/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
@@ -16,8 +16,8 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="external" \
       io.vcweb.name="bash" \
-      io.vcweb.tag="5.0.9" \
-      io.vcweb.base="bash:5.0.9" \
+      io.vcweb.tag="5.0.18" \
+      io.vcweb.base="bash:5.0.18" \
       io.vcweb.build="external" \
       io.vcweb.label="conteco.external.bash - ContEco" \
       io.vcweb.description="Official Bash image with ContEco external prerequisites installed." \
